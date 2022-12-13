@@ -2,7 +2,7 @@ void main(List<String> args) {
   late final getValuePrint = getValue();
   print('we are here');
   print(getValuePrint);
-  // late variables are initialized only when they're first used
+  // late variables are initialized only when they're used
 }
 
 int getValue() {
